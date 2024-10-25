@@ -1,0 +1,88 @@
+/* Fondo */
+.app-container {
+  background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: #333;
+  width: 100vw;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Botones de navegación */
+.nav-buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.nav-buttons button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.nav-buttons .active {
+  background-color: #28a745;
+}
+
+/* Formularios */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form input, .form button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #218838;
+}
+
+/* Listas */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+li:before {
+  content: '• ';
+  color: #007bff;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
